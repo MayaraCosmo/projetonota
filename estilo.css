@@ -1,35 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 header {
     background-color: #fff;
     width: 100%;
     height: 100px;
 }
+
  .linhaverde {
     color: #fff;
     text-align: center;
     font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.8px;
     background-color: #5A6D57;
+    padding: 5px;
    
  }
 
  .menu {
-    align-items: center;
-    justify-content: center;
+    display: flex;
+   justify-content: space-around;
  }
 
 .menulogo {
     display: flex;
     align-items: center;
+    padding: 20px;
 }   
 
 .menuopcoes {
     display: flex;
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    padding-top: 30px;
     
    
+}
+
+.icones {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    padding-top: 30px;
 }
 
 
